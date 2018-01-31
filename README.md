@@ -204,7 +204,8 @@
 		ORDER BY Revenue DESC LIMIT 5;
 
 * 8b. How would you display the view that you created in 8a?
-
+		
+		SHOW CREATE VIEW top_five_genres;
 		SELECT * FROM top_five_genres;
 
 * 8c. You find that you no longer need the view `top_five_genres`. Write a query to delete it.
